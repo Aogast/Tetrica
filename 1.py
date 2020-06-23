@@ -7,6 +7,7 @@ def search_pairs(array, k):
                 now = sorted([array[i], array[j]])
                 if now not in new_array:
                     new_array.append(now)
+                    break
     return new_array
 
 
